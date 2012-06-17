@@ -12,7 +12,7 @@ function state:init()
     state.assets = {}
 
     table.insert(state.assets, function()
-        Gamestate.load('home', require 'gui/menu')
+        Gamestate.load('home', require 'gui/intro')
     end)
 
     state.step = 240 / # self.assets

@@ -1,0 +1,5 @@
+<project name="LuaLove" default="dist" basedir=".">
+ <target name="init">
+    <zip destfile="./build/test.love" basedir="./src" includes="**/*.*"/>
+  </target>
+</project>
